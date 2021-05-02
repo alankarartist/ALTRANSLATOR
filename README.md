@@ -12,7 +12,7 @@ pip install googletrans
 
 ## Usage
 
-![](/Capture.JPG)
+![](/Capture.PNG)
 
 1. First select both source and destination language.
 2. Enter text in the field.
