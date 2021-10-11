@@ -18,3 +18,9 @@ pip install Pillow
 1. First select both source and destination language.
 2. Enter text in the field.
 3. Click on Translate.
+
+## Contributor
+
+<a href="https://github.com/alankarartist/ALTRANSLATOR/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=alankarartist/ALTRANSLATOR" />
+</a>
