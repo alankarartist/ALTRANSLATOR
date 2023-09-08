@@ -4,10 +4,8 @@ from tkinter import font, WORD, END
 from googletrans import Translator, LANGUAGES
 from PIL import ImageTk, Image
 import os
-import platform
 
 cwd = os.path.dirname(os.path.realpath(__file__))
-systemName = platform.system()
 
 
 class AlTranslator():
@@ -18,8 +16,6 @@ class AlTranslator():
         root.resizable(0, 0)
         iconPath = os.path.join(cwd+'\\UI\\icons',
                                 'altranslator.ico')
-        if systemName == 'Darwin':
-            iconPath = iconPath.replace('\\','/')
         root.iconbitmap(iconPath)
         root.config(bg='#ffffff')
         root.overrideredirect(1)
@@ -104,8 +100,7 @@ class AlTranslator():
         titleBar.bind("<Button-3>", showScreen)
         titleBar.bind("<Map>", screenAppear)
 
-        if systemName == 'Windows':
-            liftWindow()
+        liftWindow()
         root.mainloop()
 
 
